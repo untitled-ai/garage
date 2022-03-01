@@ -15,6 +15,7 @@ REQUIRED = [
     'cloudpickle',
     'cma==2.7.0',
     'dowel==0.0.3',
+    'importlib_resources',
     'numpy>=1.14.5',
     'psutil',
     'python-dateutil',
@@ -22,8 +23,8 @@ REQUIRED = [
     'scikit-image',
     'scipy',
     'setproctitle>=1.0',
-    'torch>=1.0.0,!=1.5.0,<1.8.0',
-    'torchvision>=0.2.1,<=0.8.2',
+    'torch>=1.0.0,!=1.5.0',
+    'torchvision>=0.2.1',
 ]
 
 if sys.version_info < (3, 7):
